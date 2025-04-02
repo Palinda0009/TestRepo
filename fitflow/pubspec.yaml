@@ -1,0 +1,60 @@
+name: fitflow
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.3.0
+  cupertino_icons: ^1.0.8  
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^4.8.4
+  image_picker: ^1.1.2
+  flutter_launcher_icons: ^0.13.1  # Added to customize the app logo
+  camera: ^0.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/onboarding_image.png
+    - assets/images/loss_weight.png
+    - assets/images/keep_fit.png
+    - assets/images/gain_muscle.png
+    - assets/images/get_stronger.png
+    - assets/images/start_training.png
+    - assets/images/apple_logo.png
+    - assets/images/facebook_logo.png
+    - assets/images/google_logo.png
+    - assets/images/logo.png
+    - assets/images/bg_image.png
+    - assets/images/food.jpg
+    - assets/images/meal_plan.jpg
+    - assets/images/progress.jpg
+    - assets/images/upper_body.jpg
+    - assets/images/lower_body.jpg
+    - assets/images/bicep.jpg
+    - assets/images/lunge.jpg
+    - assets/images/plank.jpg
+    - assets/images/squat.jpg
+
+
+# Flutter Launcher Icons configuration
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/keep_fit.png"  # Path to your default app icon
+
+
